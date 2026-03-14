@@ -1,0 +1,11 @@
+from Pessoa import Pessoa
+from Aluno import Aluno
+
+pessoa = Pessoa("Luan", 20)
+aluno = Aluno("Josias", 46, "232323-23")
+
+print("--- Dados da Pessoa ---")
+print(f"{pessoa.apresentar()}\n")
+
+print("--- Dados do Aluno ---")
+print(f"{aluno.apresentar_aluno()}\n")
