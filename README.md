@@ -18,28 +18,24 @@ Durante a resolução destas atividades, foram aplicados os seguintes conceitos:
 
 ## 🚀 Lista de Atividades Implementadas
 
-### 1. Conceitos Teóricos
-* Explicação com palavras próprias sobre o que são Superclasses e Subclasses.
-* Exemplo prático de hierarquia de classes aplicado a situações do cotidiano.
-
-### 2. Implementação de Herança Simples
+### 1. Implementação de Herança Simples
 * Criação da superclasse `Pessoa` com os atributos `nome` e `idade`.
 * Criação da subclasse `Aluno`, que herda de `Pessoa` e adiciona o atributo `matricula`.
 * Uso do método `super()` para inicializar a classe base.
 
-### 3. Sobrescrita de Métodos (Overriding)
+### 2. Sobrescrita de Métodos (Overriding)
 * Criação da classe `Funcionario` com o método genérico `trabalhar()`.
 * Criação da subclasse `Desenvolvedor` que sobrescreve o método `trabalhar()` para exibir a rotina de escrita de código.
 
-### 4. Atributos Protegidos e Privados
+### 3. Atributos Protegidos e Privados
 * Estruturação da classe `ContaBancaria` contendo o atributo protegido `_saldo` e o atributo privado `__senha`.
 * Criação da subclasse `ContaCorrente` demonstrando o acesso e a proteção do encapsulamento na prática.
 
-### 5. Verificação de Instância
+### 4. Verificação de Instância
 * Utilização das funções nativas `isinstance()` e `issubclass()`.
 * Validação para confirmar instâncias e heranças entre as classes criadas.
 
-### 6. Herança Múltipla
+### 5. Herança Múltipla
 * Criação do sistema de um dispositivo inteligente unindo as classes `Relogio` e `Calendario`.
 * Implementação da classe `SmartWatch` herdando comportamentos de ambas as superclasses simultaneamente e executando seus métodos em conjunto.
 
